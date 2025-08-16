@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>R.CREATIVE DESIGN</title>
+</head>
+
+<body style="background-color: black;">
+
+    <!-- <section>Nav -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark " style="color: white;">
+        <div class="container-fluid">
+            <i class="fa-brands fa-web-awesome" style="color: goldenrod; margin-left: 80px; font-size:20px;"></i>
+            <a class="navbar-brand" href="#" style="margin-left: 10px;">
+                <span class="gold-shine">R.CREATIVE DESIGN</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" style="margin-left: 300px;" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" style="font-size:20px ;"
+                            href="index.html">HOME</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" style="font-size:20px ;"
+                            href="Stuffs.html">STUFF'S</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" style="font-size:20px ;"
+                            href="Packages.html">PACKAGE'S</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" style="font-size:20px ;"
+                            href="Proof.html">PROOF</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" style="font-size:20px ;"
+                            href="About.html">ABOUT</a>
+                    </li>
+                </ul>
+                <a href="" class="me-4 text-reset">
+                    <i class="fa-brands fa-discord"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fa-brands fa-twitch"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        </div>
+        </div>
+    </nav>
+    <!-- </section> -->
+
+
+    <div style="max-width: 1600px; margin-top: 70px; margin-left: 50px; background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="images/boy.jpg" class="card1" style="height: 500px; margin-top: 10px;" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="artist-section">
+                    <h5 class="steel-text">HI, I AM ARTIST</h5>
+                    <h5 class="steel-text">CREATING VISUAL STORIES</h5>
+                    <p class="steel-paragraph">
+                        This is a wider card with supporting text below as a natural lead-in to additional content.
+                        This content is a little bit longer. This helps express more about the artist and their journey
+                        in design.
+                    </p>
+                    <div class="artist-icons">
+                        <a href="#"><i class="fa-brands fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitch"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+
+
+    <h1 class="art" style="text-align:center;">My Artworks</h1>
+
+    <div class="card-list" style="align-items: center; gap:60px;">
+        <div class="main-card" onclick="showGallery(1)">Logos</div>
+        <div class="main-card" onclick="showGallery(2)">Banners</div>
+        <div class="main-card" onclick="showGallery(3)">Overlays</div>
+        <div class="main-card" onclick="showGallery(4)">Emotes</div>
+    </div>
+
+    <!-- GALLERIES -->
+    <div class="gallery" id="gallery1">
+        <img src="images/logo3.jpg" alt="">
+        <img src="images/logo3.jpg" alt="">
+        <img src="images/logo4.png" alt="">
+        <img src="images/logo3.jpg" alt="">
+        <img src="images/logo3.jpg" alt="">
+        <img src="images/logo4.png" alt="">
+        <img src="images/logo3.jpg" alt="">
+        <img src="images/logo3.jpg" alt="">
+        <img src="images/logo4.png" alt="">
+        <img src="images/logo3.jpg" alt="">
+        <img src="images/logo3.jpg" alt="">
+        <img src="images/logo4.png" alt="">
+    </div>
+
+    <div class="gallery" id="gallery2">
+        <img src="images/banner-1 - Copy (2) - Copy.png" alt="">
+        <img src="images/banner-1 - Copy (2) - Copy.png" alt="">
+        <img src="images/banner-1 - Copy (2) - Copy.png" alt="">
+        <img src="images/banner-1 - Copy (2) - Copy.png" alt="">
+        <img src="images/banner-1 - Copy (2) - Copy.png" alt="">
+        <img src="images/banner-1 - Copy (2) - Copy.png" alt="">
+        <img src="images/banner-1 - Copy (2) - Copy.png" alt="">
+        <img src="images/banner-1 - Copy (2) - Copy.png" alt="">
+        <img src="images/banner-1 - Copy (2) - Copy.png" alt="">
+        <img src="images/banner-1 - Copy (2) - Copy.png" alt="">
+        <img src="images/banner-1 - Copy (2) - Copy.png" alt="">
+        <img src="images/banner-1 - Copy (2) - Copy.png" alt="">
+
+    </div>
+
+    <div class="gallery" id="gallery3">
+        <img src="images/overlays3.png" alt="">
+        <img src="images/overlays3.png" alt="">
+        <img src="images/overlays3.png" alt="">
+        <img src="images/overlays3.png" alt="">
+        <img src="images/overlays3.png" alt="">
+        <img src="images/overlays3.png" alt="">
+        <img src="images/overlays3.png" alt="">
+        <img src="images/overlays3.png" alt="">
+        <img src="images/overlays3.png" alt="">
+        <img src="images/overlays3.png" alt="">
+        <img src="images/overlays3.png" alt="">
+        <img src="images/overlays3.png" alt="">
+
+    </div>
+
+    <div class="gallery" id="gallery4">
+        <img src="images/emote4.webp" alt="">
+        <img src="images/emote4.webp" alt="">
+        <img src="images/emote4.webp" alt="">
+        <img src="images/emote4.webp" alt="">
+        <img src="images/emote4.webp" alt="">
+        <img src="images/emote4.webp" alt="">
+        <img src="images/emote4.webp" alt="">
+        <img src="images/emote4.webp" alt="">
+        <img src="images/emote4.webp" alt="">
+        <img src="images/emote4.webp" alt="">
+        <img src="images/emote4.webp" alt="">
+        <img src="images/emote4.webp" alt="">
+
+    </div>
+
+
+
+    <section
+        style="background-color: #000; color: white; padding: 50px 0; position: relative; overflow: hidden; margin-top: 200px;">
+        <div
+            style="display: flex; align-items: center; justify-content: center; max-width: 1100px; margin: auto; flex-wrap: wrap; gap: 30px;">
+
+            <!-- Left Side Image -->
+            <div style="flex: 1; min-width: 250px; display: flex; justify-content: center; padding: 10px;">
+                <div class="image-container">
+                    <img src="images/about.jpg" alt="My Profile Photo">
+                    <div class="hello-text">Hello 🎉</div>
+                </div>
+            </div>
+
+            <!-- Right Side Text -->
+            <div style="flex: 2; min-width: 300px; padding: 20px; margin-left: 150px; ">
+                <h2 class="reflex-heading" style="font-weight: bold;">About Me</h2>
+                <p class="word-appear" style="font-size: 1.1rem; line-height: 1.8;">
+                    Hi! I’m <strong>Raja</strong>, the creative mind behind
+                    <span style="color: #FFD700; font-weight: bold;">R.CREATIVE DESIGN</span>.
+                    I specialize in making unique, eye-catching digital designs — from logos and banners to overlays,
+                    emotes, and Vtuber models. I believe in bringing personality and style into every design, ensuring
+                    it tells a story and stands out. Let’s create something amazing together!
+                </p>
+
+                <!-- Social Contacts -->
+                <h3 class="Social" style="margin-top: 25px; color: #FFD700;">My Social Contacts</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-discord"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitch"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <script>
+            // Word by Word Animation Effect
+            document.querySelectorAll(".word-appear").forEach(el => {
+                let words = el.innerHTML.split(" ");
+                el.innerHTML = "";
+                words.forEach((word, i) => {
+                    let span = document.createElement("span");
+                    span.textContent = word + " ";
+                    span.style.animationDelay = (i * 0.15) + "s";
+                    el.appendChild(span);
+                });
+            });
+        </script>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-muted"
+        style="background-color: rgb(0, 0, 0); margin-top: 80px; color: white; font-weight: bold;">
+
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+            style="border-color: rgba(255,255,255,0.2) !important;">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Social networks:</span>
+            </div>
+            <!-- Right -->
+            <div style="font-size: 20px;">
+                <a href="#" class="me-4" style="color: #5865F2; text-decoration: none;"> <!-- Discord -->
+                    <i class="fa-brands fa-discord"></i>
+                </a>
+                <a href="#" class="me-4" style="color: #1DA1F2; text-decoration: none;"> <!-- Twitter -->
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="me-4" style="color: #9146FF; text-decoration: none;"> <!-- Twitch -->
+                    <i class="fa-brands fa-twitch"></i>
+                </a>
+                <a href="#" class="me-4" style="color: #E1306C; text-decoration: none;"> <!-- Instagram -->
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <!-- About -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4" style="background: linear-gradient(45deg, #FFD700, #b6aa8a, #FFD700);
+                               -webkit-background-clip: text;
+                               -webkit-text-fill-color: transparent;
+                               animation: goldshine 3s linear infinite;">
+                            <i class="fa-brands fa-web-awesome" style="color: goldenrod; font-size:20px;"></i>
+                            R.CREATIVE DESIGN
+                        </h6>
+                        <p>
+                            Here you can use rows and columns to organize your footer content.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                    </div>
+
+                    <!-- Products -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+                        <p><a href="#!" class="text-reset" style="text-decoration: none;">LOGO</a></p>
+                        <p><a href="#!" class="text-reset" style="text-decoration: none;">BANNER</a></p>
+                        <p><a href="#!" class="text-reset" style="text-decoration: none;">OVERLAY</a></p>
+                        <p><a href="#!" class="text-reset" style="text-decoration: none;">EMOTES</a></p>
+                        <p><a href="#!" class="text-reset" style="text-decoration: none;">VTUBER'S</a></p>
+                    </div>
+
+                    <!-- Payment -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" style="text-align: center;">
+                        <h6 class="text-uppercase fw-bold mb-4">Payment method</h6>
+                        <p>PayPal</p>
+                        <p>Cashapp</p>
+                        <p>Zelle</p>
+                        <p>Apple Pay</p>
+                    </div>
+
+                    <!-- Contact -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                        <p><i class="fas fa-envelope me-3"></i> info@example.com</p>
+                        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                        <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- Footer -->
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+    <script>
+        let currentGallery = null;
+
+        function showGallery(num) {
+            // Pichla gallery hide karo
+            if (currentGallery) {
+                let oldGallery = document.getElementById("gallery" + currentGallery);
+                oldGallery.style.display = "none";
+                oldGallery.querySelectorAll("img").forEach(img => img.classList.remove("show"));
+            }
+
+            // Naya gallery show karo
+            let gallery = document.getElementById("gallery" + num);
+            gallery.style.display = "grid";
+            let images = gallery.querySelectorAll("img");
+
+            images.forEach((img, index) => {
+                setTimeout(() => {
+                    img.classList.add("show");
+                }, index * 200); // ek-ek karke delay se
+            });
+
+            currentGallery = num;
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>
